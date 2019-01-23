@@ -1,4 +1,4 @@
-public class DelegatePuttern {
+public class DelegatePattern {
     public static void main(String[] args) {
         Painter painter = new Painter();
         painter.setGraphics(new Square());

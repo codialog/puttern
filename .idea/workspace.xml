@@ -83,7 +83,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547733578243" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548244644024" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -99,8 +99,8 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="DelegatePuttern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DelegatePuttern" />
+    <configuration name="DelegatePattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DelegatePattern" />
       <module name="puttern" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -108,7 +108,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DelegatePuttern" />
+        <item itemvalue="Application.DelegatePattern" />
       </list>
     </recent_temporary>
   </component>
