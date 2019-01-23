@@ -2,16 +2,21 @@ public class FacadePattern {
 
     public static void main(String[] args) {
 
-        //For to hide this realization need facade pattern
-        Power power = new Power();
+        Computer computer = new Computer();
+        computer.copy();
+    }
+}
+
+class Computer {
+    // to hide concrete realization used facade pattern
+    Power power = new Power();
+    DVDRom dvdRom = new DVDRom();
+    HDD hdd = new HDD();
+
+    void copy() {
         power.on();
-
-        DVDRom dvdRom = new DVDRom();
         dvdRom.load();
-
-        HDD hdd = new HDD();
         hdd.copyFromDVD(dvdRom);
-
     }
 }
 
