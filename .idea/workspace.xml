@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="30aab438-e61d-4b5f-aff4-9ad487b697d0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/FactoryPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FactoryPattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AbstractFactoryPattern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,26 +32,46 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/FactoryPattern.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+            <state relative-caret-position="318">
+              <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
               <folding>
-                <element signature="e#298#299#0" expanded="true" />
                 <element signature="e#344#345#0" expanded="true" />
-                <element signature="e#368#369#0" expanded="true" />
-                <element signature="e#407#408#0" expanded="true" />
-                <element signature="e#701#702#0" expanded="true" />
-                <element signature="e#765#766#0" expanded="true" />
-                <element signature="e#888#889#0" expanded="true" />
-                <element signature="e#952#953#0" expanded="true" />
+                <element signature="e#390#391#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/AbstractFactoryPattern.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+              <folding>
+                <element signature="e#257#258#0" expanded="true" />
+                <element signature="e#295#296#0" expanded="true" />
+                <element signature="e#397#398#0" expanded="true" />
+                <element signature="e#435#436#0" expanded="true" />
+                <element signature="e#522#523#0" expanded="true" />
+                <element signature="e#569#570#0" expanded="true" />
+                <element signature="e#656#657#0" expanded="true" />
+                <element signature="e#703#704#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -61,8 +82,14 @@
         <option value="$PROJECT_DIR$/src/main/java/DelegatePuttern.java" />
         <option value="$PROJECT_DIR$/src/main/java/FacadePattern.java" />
         <option value="$PROJECT_DIR$/src/main/java/FactoryPattern.java" />
+        <option value="$PROJECT_DIR$/src/main/java/AbstractFactoryPattern.java" />
       </list>
     </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="950" />
+    <option name="width" value="980" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -72,6 +99,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -112,12 +140,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548343317009" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548419153945" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -131,7 +158,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FactoryPattern">
+  <component name="RunManager" selected="Application.AbstractFactoryPattern">
+    <configuration name="AbstractFactoryPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AbstractFactoryPattern" />
+      <module name="puttern" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DelegatePattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DelegatePattern" />
       <module name="puttern" />
@@ -155,6 +189,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AbstractFactoryPattern" />
         <item itemvalue="Application.FactoryPattern" />
         <item itemvalue="Application.FacadePattern" />
         <item itemvalue="Application.DelegatePattern" />
@@ -178,7 +213,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18791947" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19060403" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -224,17 +259,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/FactoryPattern.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+        <state relative-caret-position="318">
+          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
           <folding>
-            <element signature="e#298#299#0" expanded="true" />
             <element signature="e#344#345#0" expanded="true" />
-            <element signature="e#368#369#0" expanded="true" />
-            <element signature="e#407#408#0" expanded="true" />
-            <element signature="e#701#702#0" expanded="true" />
-            <element signature="e#765#766#0" expanded="true" />
-            <element signature="e#888#889#0" expanded="true" />
-            <element signature="e#952#953#0" expanded="true" />
+            <element signature="e#390#391#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/AbstractFactoryPattern.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+          <folding>
+            <element signature="e#257#258#0" expanded="true" />
+            <element signature="e#295#296#0" expanded="true" />
+            <element signature="e#397#398#0" expanded="true" />
+            <element signature="e#435#436#0" expanded="true" />
+            <element signature="e#522#523#0" expanded="true" />
+            <element signature="e#569#570#0" expanded="true" />
+            <element signature="e#656#657#0" expanded="true" />
+            <element signature="e#703#704#0" expanded="true" />
           </folding>
         </state>
       </provider>
